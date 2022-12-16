@@ -3,10 +3,15 @@
 
 # Setup
 Please modify the content of below files with your own values
+
 `/lib/config.ts` - domainName, hostedZoneName
+
 `cdk.json`       - certificateArn
+
 `/frontend/src/App.js`  - yourDomainName
+
 `/lib/cloudfront.ts` - line 85, `recordName` should be the prefix of your domain name, for example if your domain name is abc.domain.com, then it would be `recordName: "abc"`
+
 
 # Welcome to your CDK TypeScript project
 
