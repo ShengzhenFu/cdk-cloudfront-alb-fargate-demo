@@ -17,6 +17,14 @@
     ]
   },
   "context": {
+    "stages": {
+      "prod": {
+        "certificateArn": "arn:aws:acm:us-east-1:YourAWSAccount:certificate/xxxxxxxx-yyyy-zzzz-qqqq-mmmmmmmmmmmm"
+      }, 
+      "dev": {
+        "certificateArn": "arn:aws:acm:us-east-1:YourAWSAccount:certificate/xxxxxxxx-yyyy-zzzz-qqqq-mmmmmmmmmmmm"
+      }
+    },
     "@aws-cdk/aws-lambda:recognizeLayerVersion": true,
     "@aws-cdk/core:checkSecretUsage": true,
     "@aws-cdk/core:target-partitions": [
